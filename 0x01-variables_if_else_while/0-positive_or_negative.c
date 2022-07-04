@@ -3,8 +3,10 @@
 #include <stdio.h>
 
 /**
- * main -> assign a random number to the variable n each time it is executed and prints out
+ * main -> assign a random number to the variable n each time it is executed
+ *
  * based a condition
+ *
  * Retuen: always 0
  */
 int main(void)
