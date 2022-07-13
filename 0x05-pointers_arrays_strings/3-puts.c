@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * _puts - write a function that prints a string, a new line and stdout.
- * @str: this is my input string
- *
+ * _puts - thi is a function that puts
+ * @str: a param to _puts function
  */
 void _puts(char *str)
 {
@@ -11,4 +10,5 @@ void _puts(char *str)
 	{
 		_putchar(*str);
 	}
+	_putchar('\n');
 }
