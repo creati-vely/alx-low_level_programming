@@ -5,13 +5,10 @@
  * @str: this is my input string
  *
  */
-void _puts(char str)
+void _puts(char *str)
 {
-	int index;
-
-	for (index = 0; str[index] != '\0'; index++)
+	for (; *str != '\0'; str++)
 	{
-		_putchar(str[index]);
+		_putchar(*str);
 	}
-	_putchar('\n');
 }
