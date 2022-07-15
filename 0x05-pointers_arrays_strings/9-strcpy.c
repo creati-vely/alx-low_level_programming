@@ -5,7 +5,7 @@
  * @src: this is copiar
  * Rertun: this return copy
  */
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src);
 {
 	char *start = dest;
 
