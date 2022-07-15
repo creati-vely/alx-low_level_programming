@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * string_touppper - changes all lowercases of a string to uppercase
+ * string_touppper - changes all lowercases latters of a string to uppercase
  * @str: parameter
  * Return: returns a character
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int index = 0;
 
