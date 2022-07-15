@@ -2,7 +2,7 @@
 /**
  * cap_string - function that capitalize first character of a word
  * @str:string to captalize
- * Return: reyurns the capitalized string
+ * Return: returns the capitalized string
  */
 char *cap_string(char *str)
 {
