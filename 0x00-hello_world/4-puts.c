@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * put - puts the string
+ * Return: return 0
+ */
 
 int main(void)
 {
