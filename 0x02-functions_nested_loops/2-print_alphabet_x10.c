@@ -5,10 +5,10 @@
  * Return: always 0
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 
-(
-	(har num;
+{
+	char num;
 	int i = 0;
 
 	while (i <= 9)
@@ -21,5 +21,5 @@ void print_alphabet_x10(void);
 		_putchar('\n');
 
 		i++;
-	)
+	}	
 }
