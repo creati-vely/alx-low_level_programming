@@ -8,7 +8,7 @@
 void print_alphabet_x10(void);
 
 (
-	(char num;
+	(har num;
 	int i = 0;
 
 	while (i <= 9)
@@ -21,5 +21,5 @@ void print_alphabet_x10(void);
 		_putchar('\n');
 
 		i++;
-	}
+	)
 }
