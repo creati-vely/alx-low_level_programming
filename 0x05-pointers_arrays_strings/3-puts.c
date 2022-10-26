@@ -3,18 +3,15 @@
 
 /**
  * _puts - prints the string followed by a new line.
- * @*str: puts out the string stored in str.
+ * @str: a parameter to puts function
  * Return: Always 0
  */
 
 void _puts(char *str)
 {
-	int i;
-
-
-	while (*str != '\0')
+	for (; *str != '\0'; str++)
 	{
-		i++;
+		_putchar(*str);
 	}
-	return (0);
+	_putchar('\n');
 }
