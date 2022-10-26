@@ -3,7 +3,7 @@
 
 /**
  * _puts - prints the string followed by a new line.
- * @str: puts out the string stored in str.
+ * @*str: puts out the string stored in str.
  * Return: Always 0
  */
 
@@ -16,5 +16,5 @@ void _puts(char *str)
 	{
 		i++;
 	}
-	return (str);
+	return (0);
 }
