@@ -1,10 +1,8 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * _puts - prints the string followed by a new line.
- * @str: a parameter to puts function
- * Return: Always 0
+ * @str: a parameter to _puts function
  */
 
 void _puts(char *str)
