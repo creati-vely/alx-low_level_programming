@@ -10,7 +10,7 @@
 
 char *_strcat(char *dest, const char *src)
 {
-	int destlen, i;
+	int i, destlen = 0;
 
 	while (dest[i++])
 		destlen++;
