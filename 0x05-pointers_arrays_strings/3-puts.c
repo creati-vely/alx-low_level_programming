@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-
 
 /**
   * _puts - Prints a string
@@ -8,14 +6,12 @@
   *
   * Return: void
   */
-
-
 void _puts(char *str)
 {
-	while (*str != '\0')
+	for (; *str != '\0'; str++)
 	{
-		_puts(*str++);
+		_putchar(*str);
 	}
 
-	_puts('\n');
+	_putchar('\n');
 }
