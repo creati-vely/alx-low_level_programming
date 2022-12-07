@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- * free_grid - prints a grid of integers
- * @width: width of the grid
- * @height: height of the grid
- *
- * Return: Nothing.
- */
+  * free_grid - ...
+  * @grid: ...
+  * @height: ...
+  *
+  * Return: ...
+  */
 
 void free_grid(int **grid, int height)
 {
