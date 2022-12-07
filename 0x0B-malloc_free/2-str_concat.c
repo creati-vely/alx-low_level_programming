@@ -37,22 +37,16 @@ char *str_concat(char *s1, char *s2)
 
 	while (c < d)
 	{
-		if (c <= i)
-			s[k] = s1[k];
+		if (c <= a)
+			s[c] = s1[c];
 
-		if (k >= i)
+		if (c >= a)
 		{
-			s[k] = s2[j];
-			j++;
+			s[c] = s2[b];
+			b++;
 		}
-		k++;
+		c++;
 	}
-	s[k] = '\0';
+	s[c] = '\0';
 	return (s);
 }
-
-
-
-
-
-
